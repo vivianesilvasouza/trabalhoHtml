@@ -3,7 +3,7 @@
 <head>
 	<title>Aventurisme: A sua melhor viagem aqui</title>
 	<link rel='stylesheet' type='text/css' href='style.css'>
-		<style>
+	<style>
 		#principal {
 			width: 1024;
 			margin: 0px auto;
@@ -48,7 +48,7 @@
 			text-align: center;
 			background-color: white;
 			margin-bottom: 15px;
-			border: 1px solid black;
+			border: 0px 1px 1px 0px solid black;
 		}
 
 		#pagamentos {
@@ -84,16 +84,34 @@
 		}
 
 		.branco {
-			color:white;
+			color: white;
 		}
 
-		div { border: 1px solid black; }
+		div {
+			border: 1px solid black;
+		}
 
 		body {
 			background: url(imgs/fundo2.jpg);
 			background-size: cover;
 		}
 
+		.resort {
+			flex: 0 0 100%;
+			display: flex;
+			box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
+			border-radius: 10px;
+			margin-bottom: 20px;
+			flex-direction: row;
+		}
+
+		.filtros {
+			background-color: rgb(206, 234, 250);
+			width: 200px;
+			height: 619px;
+			float: left;
+			margin-right: 10px;
+		}
 	</style>
 </head>
 
@@ -107,33 +125,35 @@
 			BANNER
 		</div>
 
-		<div class='opcao'><a href='pacotes.html'><span class='branco'>PACOTES</span></a></div>
-		<div class='opcao'><a href='resort1.html'><span class='branco'>RESORTS</span></a></div>
-		<div class='opcao'>PONTOS TURÍSTICOS</div>
-		<div class='opcao'>HOTÉIS</div>
-		<div class='opcao'>PASSAGENS</div>
-		<div class='opcao'>CRUZEIROS</div>
-		<div class='opcao'>DICAS</div>
+		<div class='opcoes'><a href='pacotes.html'><span class='branco'>PACOTES</span></a></div>
+		<div class='opcoes'>RESORTS</div>
+		<div class='opcoes'>PONTOS TURÍSTICOS</div>
+		<div class='opcoes'>HOTÉIS</div>
+		<div class='opcoes'>PASSAGENS</div>
+		<div class='opcoes'>CRUZEIROS</div>
+		<div class='opcoes'>DICAS</div>
 
-		<div id='resort'>
-			RESORTS
+		<div id='conteudo'>
 			<div class='filtros'>
 				<p>Filtros</p>
-				<p>Território</p>
-				<p>Regime de alimentação</p>
-				<p>Ambiente</p>
-				<p>Infraestrutura</p>
+				<hr class="hrMaior">
+				<p>
+					Território
+				</p>
 
-
+			</div>
+			<div class="contudo">
+				<p>2 resorts encontrados</p>
+				<div class="resort">resort 1 </div>
+				<div class="resort">resort 2</div>
 			</div>
 		</div>
 
-		<div>
-			<div class='rodape'>PAGAMENTOS</div>
-			<div class='rodape'>CONTATOS</div>
-			<div class='rodape'>SOBRE O SITE</div>
+		<div class='rodape'>PAGAMENTOS</div>
+		<div class='rodape'>CONTATOS</div>
+		<div class='rodape'>SOBRE O SITE</div>
 
-		</div>
+	</div>
 </body>
 
 </html>
