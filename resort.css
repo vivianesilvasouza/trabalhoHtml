@@ -1,0 +1,55 @@
+div {
+	border : 1px solid black ;
+}
+#principal {
+	width: 1024px;
+	margin: 0px auto ;
+	border : none;
+}
+body {
+	background:url(fundo/fundo.jpg);
+	background-size: cover;
+	font-family : Comic Sans MS, Tahoma, Geneva, sans-serif;
+	font-size : 16px;
+	color : navy;
+}
+.filtros {
+	background-color :rgb(206, 234, 250);
+	width: 200px;
+	height: 700px;
+	float: left;
+	margin-right : 10px;
+}
+.contudo {
+	text-align: center;
+	height: 700px;
+	background-color :white ;
+}
+p {
+	text-align: left;
+}
+.hrCustomizado {
+	border: 0.5px solid #e0e0e0;
+	margin: 5px 0 18px;
+}
+.hrMaior {
+	width: 100%;
+	border: 0.5px solid #e0e0e0;
+}
+.resort {
+	flex: 0 0 100%;
+	display: flex;
+	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
+	border-radius: 10px;
+	margin-bottom: 20px;
+	flex-direction: row;
+}
+img {
+	border-radius: 8px;
+	max-width: 250px;
+	height: 200px;
+}
+.teste {
+	margin-left: 6px;
+	margin-right: 0;
+}

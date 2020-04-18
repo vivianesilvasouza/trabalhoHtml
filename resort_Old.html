@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resort</title>
+    <style>
+			div {
+				border : 1px solid black ;
+			}
+		   .principal {
+				width: 1024px;
+				margin: 0px auto ;
+				border : none;
+			}
+			body {
+				background:url(fundo/fundo.jpg);
+				background-size: cover;
+				font-family : Comic Sans MS, Tahoma, Geneva, sans-serif;
+				font-size : 16px;
+				color : navy;
+			}
+			.filtros {
+				background-color :rgb(206, 234, 250);
+                width: 200px;
+				height: 700px;
+                float: left;
+                margin-right : 10px;
+			}
+            .contudo {
+                text-align: center;
+				height: 700px;
+				background-color :white ;
+            }
+			p {
+                text-align: left;
+            }
+            .hrCustomizado {
+                border: 0.5px solid #e0e0e0;
+                margin: 5px 0 18px;
+            }
+            .hrMaior {
+                width: 100%;
+                border: 0.5px solid #e0e0e0;
+            }
+            .resort {
+                flex: 0 0 100%;
+                display: flex;
+                box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
+                border-radius: 10px;
+                margin-bottom: 20px;
+                flex-direction: row;
+            }
+            img {
+                border-radius: 8px;
+                max-width: 250px;
+                height: 200px;
+            }
+            .teste {
+                margin-left: 6px;
+                margin-right: 0;
+            }
+    </style>
+</head>
+<body>
+    <div class="principal">
+        <div class='filtros'>
+            <p>Filtros</p>
+            <hr class="hrMaior">
+            <p>
+                Território
+            </p>
+            <div>
+                <input class="teste" type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input  class="teste"type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input class="teste" type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </div>
+            <hr class="hrCustomizado">
+
+        </div>
+        <div>
+        <div class="contudo">
+            <p>2 resorts encontrados</p>
+            <div class="resort">
+                <div>
+                    <img alt="resort  1" src="imagem/marciene13.jpg" >
+                </div>
+                <div>
+                    <h3 class="jss62 jss79 jss294 title">Hotel Casa Grande Gravata</h3>
+                    <span class="jss62 jss70 jss89 jss295 subtitle">Gravatá | Pernambuco</span>
+                    <hr class="jss296 divider">
+                    
+                </div>
+                <div>preco diarias</div>
+            </div>
+            <div class="resort">Abaixo</div>
+         </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
+       
