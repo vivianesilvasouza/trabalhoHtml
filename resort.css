@@ -1,41 +1,4 @@
-div {
-	border : 1px solid black ;
-}
-#principal {
-	width: 1024px;
-	margin: 0px auto ;
-	border : none;
-}
-body {
-	background:url(fundo/fundo.jpg);
-	background-size: cover;
-	font-family : Comic Sans MS, Tahoma, Geneva, sans-serif;
-	font-size : 16px;
-	color : navy;
-}
-.filtros {
-	background-color :rgb(206, 234, 250);
-	width: 200px;
-	height: 700px;
-	float: left;
-	margin-right : 10px;
-}
-.contudo {
-	text-align: center;
-	height: 700px;
-	background-color :white ;
-}
-p {
-	text-align: left;
-}
-.hrCustomizado {
-	border: 0.5px solid #e0e0e0;
-	margin: 5px 0 18px;
-}
-.hrMaior {
-	width: 100%;
-	border: 0.5px solid #e0e0e0;
-}
+
 .resort {
 	flex: 0 0 100%;
 	display: flex;
@@ -44,12 +7,41 @@ p {
 	margin-bottom: 20px;
 	flex-direction: row;
 }
-img {
-	border-radius: 8px;
-	max-width: 250px;
-	height: 200px;
+
+.filtros {
+	background-color: rgb(206, 234, 250);
+	width: 200px;
+	height: 617px;
+	float: left;
+	margin-right: 10px;
+	text-align: center;
 }
-.teste {
-	margin-left: 6px;
-	margin-right: 0;
+form, input {
+	text-align: left !important;
+}
+.camposAlinhados {
+	margin-left: 10px;
+	width: 180px;
+}
+button {
+	width: 60px !important;
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.banner {
+	height: 150px;
+	width: 820;
+	float: right;
+	text-align: center;
+	background-color: rgb(251, 169, 79);
+}
+.bannerimagem {
+	z-index: 1;
+	width: 820px;
+	height: 150px;
+}
+.bannertexto {
+	z-index: 2;
+	text-align: center;
 }

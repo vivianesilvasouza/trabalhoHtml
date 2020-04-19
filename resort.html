@@ -3,116 +3,7 @@
 <head>
 	<title>Aventurisme: A sua melhor viagem aqui</title>
 	<link rel='stylesheet' type='text/css' href='style.css'>
-	<style>
-		#principal {
-			width: 1024;
-			margin: 0px auto;
-			border: none;
-		}
-
-		#logo {
-			height: 150px;
-			width: 200px;
-			text-align: center;
-			float: left;
-			background-color: rgb(251, 169, 79);
-		}
-
-		#banner {
-			height: 150px;
-			width: 820;
-			float: right;
-			text-align: center;
-			background-color: rgb(251, 169, 79);
-		}
-
-		.opcoes {
-			width: 142.2px;
-			float: left;
-			text-align: center;
-			margin: 5px 0px 0px 0px;
-			height: 30px;
-			padding: 1px;
-			margin-bottom: 20px;
-			background-color: rgb(0, 112, 192);
-			font-family: Georgia;
-			font-size: 13px;
-			color: white;
-		}
-
-		#conteudo {
-			clear: both;
-			width: 1023px;
-			height: 620px;
-			margin: 0px auto;
-			text-align: center;
-			background-color: white;
-			margin-bottom: 15px;
-			border: 0px 1px 1px 0px solid black;
-		}
-
-		#pagamentos {
-			width: 454px;
-			height: 65px;
-			text-align: center;
-			float: left;
-			background-color: rgb(0, 112, 192);
-		}
-
-		#contatos {
-			width: 454px;
-			height: 65px;
-			text-align: center;
-			float: left;
-			background-color: rgb(0, 112, 192);
-		}
-
-		#sobre {
-			width: 452px;
-			height: 65px;
-			text-align: center;
-			float: left;
-			background-color: rgb(0, 112, 192);
-		}
-
-		.rodape {
-			width: 339.3px;
-			height: 45px;
-			float: left;
-			text-align: center;
-			background-color: rgb(0, 112, 192);
-		}
-
-		.branco {
-			color: white;
-		}
-
-		div {
-			border: 1px solid black;
-		}
-
-		body {
-			background: url(imgs/fundo2.jpg);
-			background-size: cover;
-		}
-
-		.resort {
-			flex: 0 0 100%;
-			display: flex;
-			box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
-			border-radius: 10px;
-			margin-bottom: 20px;
-			flex-direction: row;
-		}
-
-		.filtros {
-			background-color: rgb(206, 234, 250);
-			width: 200px;
-			height: 619px;
-			float: left;
-			margin-right: 10px;
-		}
-	</style>
+	<link rel='stylesheet' type='text/css' href='resort.css'>
 </head>
 
 <body>
@@ -120,11 +11,12 @@
 		<div id='logo'>
 			<img src='fundo/logo.jpg' title='Aventurisme' width='200' height='150'>
 		</div>
-
-		<div id='banner'>
-			BANNER
+		<div class='banner'>
+			<img class="bannerimagem" src="fundo/marciene6.jpg">
+			<p class="bannertexto">
+				Resort
+			</p>
 		</div>
-
 		<div class='opcoes'><a href='pacotes.html'><span class='branco'>PACOTES</span></a></div>
 		<div class='opcoes'>RESORTS</div>
 		<div class='opcoes'>PONTOS TURÍSTICOS</div>
@@ -136,11 +28,59 @@
 		<div id='conteudo'>
 			<div class='filtros'>
 				<p>Filtros</p>
-				<hr class="hrMaior">
+				<hr>
 				<p>
 					Território
 				</p>
-
+				<hr style="width: 180px;"> <!-- estilo em linha  -->
+				<form class="formsRadios">
+					<input type="radio" id="todosresorts" name="territorio" disabled value="Todos os resorts">
+					<label for="todosresorts">Todos os resorts</label><br>
+					<input type="radio" id="resortsnacionais" checked="true" name="territorio"
+						value="Resorts nacionais">
+					<label for="resortsnacionais">Resorts nacionais</label><br>
+				</form>
+				<hr>
+				<p>
+					Região
+				</p>
+				<hr style="width: 180px;">
+				<form>
+					<input type="checkbox" id="todasregioes" name="todasregioes" value="Todas as regiões">
+					<label for="todasregioes"> Todas as regiões</label><br>
+					<input type="checkbox" id="norte" name="norte" value="Norte">
+					<label for="norte">Norte</label><br>
+					<input type="checkbox" id="sul" name="sul" value="sul">
+					<label for="sul"> Sul</label>
+				</form>
+				<hr>
+				<p>
+					Regime de alimentação
+				</p>
+				<hr style="width: 180px;">
+				<form>
+					<input type="checkbox" id="todosregimes" name="todosregimes" value="Todos Regimes">
+					<label for="todosregimes"> Todos Regimes</label><br>
+					<input type="checkbox" id="allinclusive" name="allinclusive" value="All Inclusiove">
+					<label for="allinclusive">All Inclusive</label><br>
+					<input type="checkbox" id="cafedamanha" name="cafedamanha" value="Café da Manhã">
+					<label for="cafedamanha"> Café da Manhã</label><br>
+					<input type="checkbox" id="meiapensão" name="meiapensao" value="Meia Pensão">
+					<label for="meiapensao">Meia Pensão</label><br>
+					<input type="checkbox" id="pensaocompleta" name="pensaocompleta" value="Pensão Completa">
+					<label for="pensaocompleta">Pensão Completa</label><br>
+					<input type="checkbox" id="semalimentacao" name="semalimentacao" value=" Sem Alimentação">
+					<label for="semalimentacao">Sem Alimentação</label>
+				</form>
+				<hr>
+				<p>
+					Busca por nome
+				</p>
+				<hr style="width: 180px;">
+				<form>
+					<input class="camposAlinhados" type="text" id="buscapornome" name="buscapornome">
+					<button class="camposAlinhados" type="submit" id="buscarnome">Buscar</button>
+				</form>
 			</div>
 			<div class="contudo">
 				<p>2 resorts encontrados</p>
