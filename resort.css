@@ -1,20 +1,11 @@
-
-.resort {
-	flex: 0 0 100%;
-	display: flex;
-	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
-	border-radius: 10px;
-	margin-bottom: 20px;
-	flex-direction: row;
-}
-
 .filtros {
 	background-color: rgb(206, 234, 250);
 	width: 200px;
-	height: 617px;
+	height: 620px;
 	float: left;
 	margin-right: 10px;
 	text-align: center;
+	border: 1px cornflowerblue;
 }
 form, input {
 	text-align: left !important;
@@ -30,18 +21,62 @@ button {
 	margin-top: 5px;
 }
 .banner {
+	font-size: 48px;
+	font-variant:small-caps;
+	color: white;
 	height: 150px;
 	width: 820;
 	float: right;
 	text-align: center;
-	background-color: rgb(251, 169, 79);
+	text-shadow: 2px 2px black;
+	background-image: url(fundo/marciene6.jpg);
 }
-.bannerimagem {
-	z-index: 1;
-	width: 820px;
-	height: 150px;
+.resorts {
+	border: 0px;
+
 }
-.bannertexto {
-	z-index: 2;
-	text-align: center;
+a{
+	color:white;
+}
+a:hover{
+	color: cyan;
+}
+.resort {
+	width: 281.31px;
+	height: 257.63px;
+	display: flex;
+	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
+	margin-bottom: 20px;
+	
+}
+#ilha {
+
+	background-color: lightseagreen;
+	border-radius: 20px 0px 0px 20px;
+	background-image:url(fundo/resort1.jpg);
+	border: 1px;
+	float: left;
+}
+#ilha2 {
+	width:520px;
+	text-align:center;
+	border-radius: 0px  20px 20px 0px;
+	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
+	border: 1px;
+	
+}
+#curral {
+	background-color: lime;
+	border-radius: 20px  0px 0px 20px;;
+	background-image:url(fundo/resort2.jpg);
+	border: 1px;
+	float: left;
+
+}
+#curral2{
+	width:520px;
+	text-align:center;
+	border-radius: 0px  20px 20px 0px;
+	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
+	border: 1px;
 }

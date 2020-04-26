@@ -25,7 +25,6 @@
 	font-size: 13px;
 	color: white;
 }
-
 #conteudo {
 	clear: both;
 	width: 1023px;
@@ -79,4 +78,7 @@ div {
 body {
 	background: url(fundo/fundo.jpg);
 	background-size: cover;
+}
+.textobanner {
+	font-size: 50px;
 }
