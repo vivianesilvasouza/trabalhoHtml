@@ -3,9 +3,11 @@
 	width: 200px;
 	height: 620px;
 	float: left;
-	margin-right: 10px;
 	text-align: center;
 	border: 1px cornflowerblue;
+	border-radius: 20px  20px 20px 20px;
+	margin: 6px 6px 6px 6px;
+	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
 }
 form, input {
 	text-align: left !important;
@@ -17,8 +19,10 @@ form, input {
 button {
 	width: 60px !important;
 	float: right;
-	margin-right: 10px;
-	margin-top: 5px;
+	margin-right: 70px;
+	margin-top: 3px;
+	border-radius: 5px  5px 5px 5px;
+	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
 }
 .banner {
 	font-size: 48px;
@@ -58,25 +62,39 @@ a:hover{
 	float: left;
 }
 #ilha2 {
-	width:520px;
+	width:300px;
+	height:238px;
 	text-align:center;
-	border-radius: 0px  20px 20px 0px;
 	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
 	border: 1px;
+	float: left;
+	padding:10px
 	
 }
 #curral {
-	background-color: lime;
-	border-radius: 20px  0px 0px 20px;;
+	border-radius: 20px  0px 0px 20px;
 	background-image:url(fundo/resort2.jpg);
 	border: 1px;
 	float: left;
 
 }
 #curral2{
-	width:520px;
+	width:300px;
+	height: 238;
 	text-align:center;
-	border-radius: 0px  20px 20px 0px;
 	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
 	border: 1px;
+	float: left;
+	padding:10px;
+}
+	
+.preco{
+	width: 150px;
+	height: 226px;
+	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
+	float: left;
+	border-radius: 0px  20px 20px 0px;
+	border: 1px;
+	background-color:rgb(255, 145, 0);
+	padding:16px;
 }
