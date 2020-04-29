@@ -1,11 +1,12 @@
 #banner {
+	font-family:georgia;
 	font-size: 48px;
 	font-variant:small-caps;
-	color: white;
+	color:rgb(255, 255, 255);
 	height: 150px;
 	width: 820;
 	float: right;
 	text-align: center;
-	text-shadow: 2px 2px black;
+	text-shadow: 3px 1px rgb(7, 7, 7);
 	background-image: url(fundo/resortdailhabanner.jpg);
 }
