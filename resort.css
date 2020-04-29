@@ -48,29 +48,17 @@ a:hover{
 .resort {
 	width: 281.31px;
 	height: 257.63px;
-	display: flex;
 	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
-	margin-bottom: 20px;
-	
+	margin-bottom: 20px;	
 }
 #ilha {
 
-	background-color: lightseagreen;
 	border-radius: 20px 0px 0px 20px;
 	background-image:url(fundo/resort1.jpg);
 	border: 1px;
 	float: left;
 }
-#ilha2 {
-	width:300px;
-	height:238px;
-	text-align:center;
-	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
-	border: 1px;
-	float: left;
-	padding:10px
-	
-}
+
 #curral {
 	border-radius: 20px  0px 0px 20px;
 	background-image:url(fundo/resort2.jpg);
@@ -78,23 +66,42 @@ a:hover{
 	float: left;
 
 }
-#curral2{
+.quadrado{
 	width:300px;
-	height: 238;
-	text-align:center;
-	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
+	height: 238px;
 	border: 1px;
 	float: left;
 	padding:10px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color:rgb(68, 66, 66)
 }
 	
-.preco{
+.diaria{
 	width: 150px;
 	height: 226px;
 	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
 	float: left;
 	border-radius: 0px  20px 20px 0px;
 	border: 1px;
-	background-color:rgb(255, 145, 0);
+	background-color:rgb(252, 134, 24);
 	padding:16px;
+	color: white;
+	font-family:tahoma;
+	
+}
+.sp{
+	font-size: 12px;
+	font-family: Georgia;
+}
+.preco{
+	font-size: 20px;
+	font-family: tahoma;
+	color: white;
+	
+	
+}
+.parcela{
+	font-size: 13px;
+	font-family: tahoma;
+	color: rgb(1, 68, 167);
 }
