@@ -1,7 +1,7 @@
 .filtros {
 	background-color: rgb(206, 234, 250);
 	width: 200px;
-	height: 620px;
+	height: 632px;
 	float: left;
 	text-align: center;
 	border: 1px cornflowerblue;
@@ -118,7 +118,6 @@ a:hover{
   	font-size: 16px;
 	margin: 15px 20px;
 	cursor: pointer;
-	
-	  
+	box-shadow: 0 5px 5px 0 rgba(168, 168, 168, 0.5);	  
 }
 

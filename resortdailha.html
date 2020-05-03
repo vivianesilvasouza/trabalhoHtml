@@ -1,5 +1,7 @@
 <html>
-
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <meta charset="utf-8"/>
     <head>
 	    <title>Aventurisme: A sua melhor viagem aqui</title>
 	    <link rel='stylesheet' type='text/css' href='style.css'>
@@ -24,7 +26,26 @@
 			<div class='opcoes'>DICAS</div>
             
             <div id='conteudo'>
-				CONTEÚDO (DICAS)
+                <form action="#" method="get" class="formulario">
+                     <fieldset>
+                        <legend><b>Faça sua Reserva</b></legend>
+                            <label>Data de entrada</label>
+                            <input type="date" min="2020-05-01" max="2022-01-31">
+                            <label>Data de saída</label>
+                            <input type="date" min="2020-05-01" max="2022-01-31">
+                            <label>Adultos</label>
+                            <input type="number" min="1" max="10">
+                            <label>Crianças</label>
+                            <input type="number" min="1" max="10">
+                            <label>Quartos</label>
+                            <input type="number" min="1" max="10">
+                            <label><br>
+                                <input type="checkbox" name="vouviajaratrabalho" value="Vou viajar a trabalho">
+                                Vou viajar a trabalho
+                            </label>
+                            <input type="submit" value="Buscar">
+                     </fieldset>
+                </form> 
             </div>
             
             <div class='rodape'>PAGAMENTOS</div>
