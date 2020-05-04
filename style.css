@@ -76,7 +76,7 @@ div {
 }
 
 body {
-	background: url(fundo/fundo.jpg);
+	background: url(imgs/fundo.jpg);
 	background-size: cover;
 }
 .textobanner {

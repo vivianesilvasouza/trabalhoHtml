@@ -5,13 +5,13 @@
     <head>
 	    <title>Aventurisme: A sua melhor viagem aqui</title>
 	    <link rel='stylesheet' type='text/css' href='style.css'>
-	    <link rel='stylesheet' type='text/css' href='resortdailha.css'>
+        <link rel='stylesheet' type='text/css' href='resortdailha.css'>
     </head>
 
 <body>
     <div id='principal'>
         <div id='logo'>
-            <img src='fundo/logo.jpg' title='Aventurisme' width='200' height='150'>
+            <img src='imgs/logo.jpg' title='Aventurisme' width='200' height='150'>
         </div>
         
         <div id='banner'>
@@ -26,26 +26,50 @@
 			<div class='opcoes'>DICAS</div>
             
             <div id='conteudo'>
-                <form action="#" method="get" class="formulario">
-                     <fieldset>
-                        <legend><b>Faça sua Reserva</b></legend>
+            
+                <form>
+                     <fieldset class="formulario">
+                        <strong><p>Faça sua Reserva</p></strong>
+                        <hr>
                             <label>Data de entrada</label>
-                            <input type="date" min="2020-05-01" max="2022-01-31">
-                            <label>Data de saída</label>
-                            <input type="date" min="2020-05-01" max="2022-01-31">
+                            <input type="date" id="datainicial"  min="2020-05-01" max="2022-01-31">
+                            <label><br>Data de saída</label>
+                            <input type="date" id="datafinal" min="2020-05-01" max="2022-01-31">
+                            <hr>
                             <label>Adultos</label>
                             <input type="number" min="1" max="10">
                             <label>Crianças</label>
                             <input type="number" min="1" max="10">
+                            <hr>
                             <label>Quartos</label>
                             <input type="number" min="1" max="10">
-                            <label><br>
+                            <hr>
+                            <label>
                                 <input type="checkbox" name="vouviajaratrabalho" value="Vou viajar a trabalho">
-                                Vou viajar a trabalho
+                                Vou viajar a trabalho<br>
                             </label>
-                            <input type="submit" value="Buscar">
+                            <input type="submit" value="Ver Disponibilidade">
+                            <hr>
+                            <div id="covid"><p>&#9888; Entendemos que seus planos de viagem possam ter sido afetados pelo Coronavírus (COVID-19).<br>
+                                Por favor, verifique se existem restrições de viagem antes de reservar.</p></div>
                      </fieldset>
+                     
                 </form> 
+              
+                <div id="slide-externo">
+                    <div id="slide-interno">
+                        <img src="imgs/resort1.jpg" alt="resort da ilha">
+                        <img src="imgs/quartoresortiha.jpg" alt="resort da ilha">
+                        <img src="imgs/quartosolteiroilharesort.jpg" alt="resort da ilha">
+                        <img src="imgs/quarto2.jpg" alt="resort da ilha">
+                        <img src="imgs/cafedamanhailha.jpg" alt="resort da ilha">
+                        <img src="imgs/vistailha.jpg" alt="resort da ilha">
+                        <img src="imgs/vistaresort1.jpg" alt="quarto">
+                        <img src="imgs/academiailharesort.jpg" alt="quarto">
+                        <img src="imgs/resortilha1.jpg" alt="quarto">
+                    </div>
+                </div>
+            
             </div>
             
             <div class='rodape'>PAGAMENTOS</div>

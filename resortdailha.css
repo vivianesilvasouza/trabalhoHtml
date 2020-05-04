@@ -1,3 +1,32 @@
+ @keyframes slide {
+	0%{
+		transform: translateY(0);
+	}
+	22%{
+		transform: translateY(0);
+	}
+	25%{
+		transform: translateY(-50vh);
+	}
+	47%{
+		transform: translateY(-50vh);
+	}
+	50%{
+		transform: translateY(-100vh);
+	}
+	72%{
+		transform: translateY(-100vh);
+	}
+	75%{
+		transform: translateY(-150vh);
+	}
+	97%{
+		transform: translateY(-150vh);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
 #banner {
 	font-family:georgia;
 	font-size: 48px;
@@ -8,9 +37,63 @@
 	float: right;
 	text-align: center;
 	text-shadow: 3px 1px rgb(7, 7, 7);
-	background-image: url(fundo/resortdailhabanner.jpg);
+	background-image: url(imgs/resortdailhabanner.jpg);
+}
+#covid{
+	width: 200px;
+	height: 215px;
+	margin: 6px 6px 6px 14px;
+	background-color: rgb(250, 160, 76);
+	border-radius: 10px;
+	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
+	border: 1px cornflowerblue;
+	text-align: center;
+	
+
+                
 }
 .formulario{
-	width:200px;
-	height: 620px;
+	background-color: rgb(206, 234, 250);
+	width: 200px;
+	height: 598px;
+	font-family: georgia;
+	line-height:30px;
+	border: 1px cornflowerblue;
+	border-radius: 20px  20px 20px 20px;
+	margin: 20px 6px 6px 6px;
+	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
+	float: left;
 }
+input[type="date"]{
+	width: 130px;
+}
+input[type="number"]{
+	width: 35px;
+	
+}
+#slide-externo{
+	width: 40vw;
+	height: 80vh;
+	border: 10px solid white;
+	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
+	margin-left: 3vw;
+	overflow: hidden;
+	box-sizing: border-box;
+	float: left;
+}
+#slide-interno{
+	
+	width: 100%;
+	animation: slide 5s infinite;
+
+
+}
+#slide-interno img{
+	display: block;
+	height: 75vh;
+	width: 100%;
+	border: none;
+	
+	
+}
+
