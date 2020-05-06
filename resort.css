@@ -33,7 +33,7 @@ button {
 	float: right;
 	text-align: center;
 	text-shadow: 2px 2px black;
-	background-image: url(imgs/marciene6.jpg);
+	background-image: url(imgs/banner.jpg);
 }
 .resorts {
 	border: 0px;
@@ -54,14 +54,14 @@ a:hover{
 #ilha {
 
 	border-radius: 20px 0px 0px 20px;
-	background-image:url(imgs/resort1.jpg);
+	background-image:url(imgs/resortprimeirapagina.jpg);
 	border: 1px;
 	float: left;
 }
 
 #curral {
 	border-radius: 20px  0px 0px 20px;
-	background-image:url(imgs/resort2.jpg);
+	background-image:url(imgs/resortcurralprimeirapagina.jpg);
 	border: 1px;
 	float: left;
 
