@@ -1,6 +1,10 @@
  
 	
-
+#conteudo {
+	width: 1023px;
+	height: 1500px;
+	
+}
 #banner {
 	font-family:georgia;
 	font-size: 48px;
@@ -22,9 +26,6 @@
 	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
 	border: 1px cornflowerblue;
 	text-align: center;
-	
-
-                
 }
 .formulario{
 	background-color: rgb(206, 234, 250);
@@ -34,7 +35,7 @@
 	line-height:30px;
 	border: 1px cornflowerblue;
 	border-radius: 20px  20px 20px 20px;
-	margin: 20px 6px 6px 6px;
+	margin: 0px 6px 6px 12px;
 	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
 	float: left;
 }
@@ -46,25 +47,184 @@ input[type="number"]{
 	
 }
 #slide-externo{
-	width: 47vw;
-	height: 60vh;
+	width: 36vw;
+	height: 45vh;
 	border: 4px solid white;
 	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
-	margin-left: 3vw;
 	overflow: auto;
 	box-sizing: border-box;
-	float: left;
+	margin: 27px 45px 26px 76px;
+	border-radius: 10px;
+	
 }
 #slide-interno{
 	
 	width: 100%;
-	animation: slide 5s infinite;
-	
-
-
+	border: none;
 }
 #slide-interno img{
 	width: 100%;
 	
+	
 }
+.informacao{
+	width: 700px;
+	height: 563px;
+	font-size: 14px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	float: right;
+	margin: 30px 24px 12px 0px;
+	text-align: justify;
+	box-shadow: 0 0 17px 0 rgba(168, 168, 168, 0.5);
+	border: none;
+	border-radius: 20px 20px 20px 20px;
+	padding: 10px;
 
+}
+#informacaoresort {
+	
+	height: 243px;
+	font-size: 14px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin: 30px 12px 12px 12px;
+	text-align: justify;
+	border: none;
+
+	
+}
+h1{
+	width:1000px;
+	margin:10px 11px 36px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 35px;
+	text-align: center;
+	background-image: url(imgs/resortlogo.png);
+	color: rgb(255, 94, 0);
+	box-shadow: 0 0 17px 0 rgba(168, 168, 168, 0.5);
+}
+.infquartos {
+	border: none;
+	font-size: 20px;
+}
+.quarto {
+	width: 330px;
+	height: 209px;
+	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
+	float: left;
+	border-radius: 20px 0px 0px 20px;
+	margin: 10px 0px 10px 21px;
+	padding:10px;
+}
+#quarto1 {
+	background-image: url(imgs/quartoresor.jpg);
+	
+}
+#quarto2 {
+	
+	background-image: url(imgs/quartoilharesort.jpg);
+	
+}
+.quadrado{
+	width:390px;
+	height: 209px;
+	border: none;
+	float: left;
+	padding:10px;
+	line-height:20px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color:rgb(68, 66, 66);
+	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
+	margin: 10px 0px 10px 0px;	
+}
+#quarto3 {
+	background-image: url(imgs/quartosolteiroilharesort.jpg);
+	
+}
+#icones{
+	width: 150px;
+	list-style: none;
+	line-height:22px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 13px;
+	padding: 10px;
+	float: left;
+	
+}
+.quantidade{
+	font-size: 14px;
+	font-family: Georgia;
+	
+}
+#cafedamanha{
+	width: 109px;
+	height: 74px;
+	float: right;
+	text-align: center;
+	border: dashed 0.8px #4a4a4a;
+	border-radius: 5px;
+	padding: 21px 7px 6px;
+	margin: 16px 30px 10px 10px;
+	font-size: 16px;
+}
+.escolha{
+	width:195px;
+	height: 209px;
+	border: none;
+	border-radius: 0px 20px 20px 0px;
+	float: left;
+	padding:13px 10px 7px 10px;
+	line-height:24px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color:rgb(11, 27, 144);
+	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
+	margin: 10px 10px 10px 0px;	
+	text-align: center;
+	
+	
+}
+.preco{
+	font-size: 20px;
+	font-family: tahoma;
+	color: rgb(247, 83, 8);
+	padding: 10px 15px 12px 33px;
+	line-height: 49px;
+    margin: 0px 17px 0px 11px;
+	
+
+}
+.parcela{
+	font-size: 13px;
+	font-family: tahoma;
+	color: rgb(1, 68, 167);
+	padding: 10px; 
+}
+.button{
+	padding: 10px 9px;
+	text-align: center;
+	font-family: tahoma;
+	display: inline-block;
+	font-size: 20px;
+	margin: 20px 2px;
+	transition-duration: 0.4s;
+	cursor:pointer;
+	text-decoration: none;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
+}
+.button1{
+	background-color: rgb(24, 190, 245); 
+	color: rgb(22, 6, 94);
+	border: 2px solid rgb(24, 190, 245);
+}
+a {text-decoration: none;}
+.button1:hover {
+	background-color: white;
+	color: rgb(22, 6, 94);
+  }
+a:visited {
+	background-color: lightgray;
+	color: rgb(22, 6, 94);
+}
+a:active {
+	background-color: cyan;
+}

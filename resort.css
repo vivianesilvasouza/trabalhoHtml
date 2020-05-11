@@ -9,6 +9,10 @@
 	margin: 6px 6px 6px 6px;
 	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
 }
+#conteudo {
+	width: 1023px;
+	height: 645px;
+}
 form, input {
 	text-align: left !important;
 }
@@ -16,7 +20,7 @@ form, input {
 	margin-left: 10px;
 	width: 180px;
 }
-button {
+.botao{
 	width: 60px !important;
 	float: right;
 	margin-right: 70px;
@@ -25,31 +29,56 @@ button {
 	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
 }
 .banner {
-	font-size: 48px;
-	font-variant:small-caps;
-	color: white;
 	height: 150px;
 	width: 820;
 	float: right;
-	text-align: center;
-	text-shadow: 2px 2px black;
 	background-image: url(imgs/banner.jpg);
 }
 .resorts {
 	border: 0px;
 
 }
-a{
-	color:white;
+.areaMenu a:link { 
+	color: white; 
+	background-color: rgb(0, 112, 192);
 }
-a:hover{
-	color: cyan;
+
+.areaMenu a:visited {
+	background-color: lightgray;
+	color: white;
+}
+
+.areaMenu a:hover {
+	background-color: orange;
+}
+
+.areaMenu a:active {
+	background-color: cyan;
 }
 .resort {
 	width: 281.31px;
 	height: 257.63px;
 	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
-	margin-bottom: 20px;	
+	margin-bottom: 20px;
+	
+}
+#icones{
+	list-style: none;
+	padding: 0px;
+	line-height:22px;
+	margin: 0px;
+	float: left;
+	font-size: 14px;
+}
+#all{
+	width: 109px;
+	height: 74px;
+	float: right;
+	text-align: center;
+	border: dashed 0.8px #4a4a4a;
+	border-radius: 5px;
+	padding: 10px 1px 10px;
+	margin: 10px;
 }
 #ilha {
 
@@ -72,6 +101,7 @@ a:hover{
 	border: 1px;
 	float: left;
 	padding:10px;
+	line-height:20px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	color:rgb(68, 66, 66)
 }
@@ -97,27 +127,44 @@ a:hover{
 	font-size: 20px;
 	font-family: tahoma;
 	color: white;
-	
+	padding: 10px 15px 12px 20px;
+	line-height: 96px;
+   
 	
 }
 .parcela{
-	font-size: 13px;
+	font-size: 11px;
 	font-family: tahoma;
 	color: rgb(1, 68, 167);
-	float: right;
+	padding: 10px; 
 }
-.button2 {
-	border-radius: 8px;
-	background-color: rgb(70, 164, 240);
-  	border: none;
-  	color: white;
-	padding: 10px;
-  	text-align: center;
-  	text-decoration: none;
-  	display: inline-block;
-  	font-size: 16px;
-	margin: 15px 20px;
-	cursor: pointer;
-	box-shadow: 0 5px 5px 0 rgba(168, 168, 168, 0.5);	  
+.button{
+	padding: 10px 9px;
+	text-align: center;
+	font-family: tahoma;
+	display: inline-block;
+	font-size: 17px;
+	margin: 20px 12px;
+	transition-duration: 0.4s;
+	cursor:pointer;
+	text-decoration: none;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
 }
-
+.button1{
+	background-color: rgb(24, 190, 245); 
+	color: rgb(22, 6, 94);
+	border: 2px solid rgb(24, 190, 245);
+}
+a {text-decoration: none;}
+.button1:hover {
+	background-color: white;
+	color: rgb(22, 6, 94);
+  }
+a:visited {
+	background-color: lightgray;
+	color: rgb(22, 6, 94);
+}
+a:active {
+	background-color: cyan;
+}
