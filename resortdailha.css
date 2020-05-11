@@ -122,7 +122,6 @@ h1{
 #quarto2 {
 	
 	background-image: url(imgs/quartoilharesort.jpg);
-	
 }
 .quadrado{
 	width:390px;
@@ -138,7 +137,6 @@ h1{
 }
 #quarto3 {
 	background-image: url(imgs/quartosolteiroilharesort.jpg);
-	
 }
 #icones{
 	width: 150px;
@@ -148,12 +146,10 @@ h1{
 	font-size: 13px;
 	padding: 10px;
 	float: left;
-	
 }
 .quantidade{
 	font-size: 14px;
 	font-family: Georgia;
-	
 }
 #cafedamanha{
 	width: 109px;
@@ -179,8 +175,6 @@ h1{
 	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
 	margin: 10px 10px 10px 0px;	
 	text-align: center;
-	
-	
 }
 .preco{
 	font-size: 20px;
@@ -189,8 +183,6 @@ h1{
 	padding: 10px 15px 12px 33px;
 	line-height: 49px;
     margin: 0px 17px 0px 11px;
-	
-
 }
 .parcela{
 	font-size: 13px;
